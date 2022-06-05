@@ -1,5 +1,6 @@
 FROM php:apache-bullseye
 # Start Apache correctly
+COPY index.php .
 RUN docker-php-ext-install mysqli
 RUN apachectl restart
 CMD rm -r /var/www/html \
