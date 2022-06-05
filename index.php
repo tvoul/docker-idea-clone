@@ -19,7 +19,7 @@
     error_reporting(E_ALL);
 
     // Create connection
-    $conn = new mysqli($servername, $username, $password);
+    //$conn = new mysqli($servername, $username, $password);
 
     // Check connection
     if ($conn->connect_error) {
