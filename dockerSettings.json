@@ -1,4 +1,12 @@
 [
+  "reverse-proxy",
+  [
+    80
+  ],
+  "iframes",
+  [
+    8011
+  ],
   "world-map",
   [
     4000
@@ -10,5 +18,5 @@
   "country-info",
   [
     5001
-  ]
+  ]  
 ]
