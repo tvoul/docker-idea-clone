@@ -28,8 +28,7 @@
 
     // Not really using db after this
 
-    //$country = isset($_GET["country"]) ? $_GET["country"] : '';
-    $country = "Greece"
+    $country = isset($_GET["country"]) ? $_GET["country"] : '';
 
     if(!file_exists("./info/".$country.".html")){
       echo "<h1>Click a country...</h1>";
