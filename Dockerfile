@@ -1,6 +1,6 @@
 FROM php:apache-bullseye
 # Start Apache correctly
-COPY index.php .
+RUN find /var/www/html -type d -exec chmod 755 {} \;
 RUN docker-php-ext-install mysqli
 RUN apachectl restart
 CMD rm -r /var/www/html \
