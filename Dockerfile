@@ -1,6 +1,6 @@
 FROM php:apache-bullseye
 # Start Apache correctly
-RUN docker-php-ext-install mysqli pdo pdo_mysql
+RUN docker-php-ext-install mysqli
 RUN apachectl restart
 CMD rm -r /var/www/html \
     && ln -s $(pwd) /var/www/html \
