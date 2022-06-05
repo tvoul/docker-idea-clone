@@ -1,10 +1,14 @@
 [
-  "dev-frontend",
-  [
-    4001
-  ],
-  "main-frontend",
+  "world-map",
   [
     4000
+  ],
+  "mysql",
+  [
+    5000
+  ],
+  "country-info",
+  [
+    5001
   ]
 ]
