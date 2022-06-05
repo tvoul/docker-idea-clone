@@ -2,7 +2,7 @@
     $servername = "localhost";
     $username = "root";
     $password = "mysql";
-    $database = "countries";
+    $database = "docker-idea-clone-mysql";
 ?><!DOCTYPE html>
 <html lang="en">
 <head>
