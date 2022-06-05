@@ -1,9 +1,9 @@
 [
-  "dev-frontend",
+  "world-map",
   [
     4001
   ],
-  "main-frontend",
+  "iframes",
   [
     4000
   ]
