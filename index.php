@@ -1,8 +1,8 @@
 <?php
-    $servername = "localhost";
+    $servername = "mysql";
     $username = "root";
     $password = "mysql";
-    $database = "docker-idea-clone-mysql";
+    $database = "countries";
 ?><!DOCTYPE html>
 <html lang="en">
 <head>
@@ -19,7 +19,7 @@
     error_reporting(E_ALL);
 
     // Create connection
-    $conn = new mysqli($servername, $username, $password);
+    $conn = new mysqli($servername, $username, $password, $database);
 
     // Check connection
     if ($conn->connect_error) {
