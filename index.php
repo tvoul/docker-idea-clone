@@ -1,6 +1,6 @@
 <?php
     $servername = "docker-idea-clone-mysql";
-    $port = 5000;
+    $port = "5000";
     $username = "root";
     $password = "mysql";
     $database = "countries";
