@@ -6,5 +6,9 @@
   "iframes",
   [
     4000
+  ],
+  "reverse-proxy",
+  [
+    80
   ]
 ]
