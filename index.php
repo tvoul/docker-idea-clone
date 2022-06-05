@@ -1,6 +1,5 @@
 <?php
-    $servername = "docker-idea-clone-mysql";
-    $port = "5000";
+    $servername = "docker-idea-clone-mysql:5000";
     $username = "root";
     $password = "mysql";
     $database = "countries";
@@ -20,7 +19,7 @@
     error_reporting(E_ALL);
 
     // Create connection
-    $conn = new mysqli($servername, $port, $username, $password, $database);
+    $conn = new mysqli($servername, $username, $password, $database);
 
     // Check connection
     if ($conn->connect_error) {
